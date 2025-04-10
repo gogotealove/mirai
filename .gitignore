@@ -1,0 +1,12 @@
+# Virtual environments directory
+.venv/
+.streamlit/secrets.toml
+
+# SECURE environment arguments
+.env
+.gcloudignore
+
+uv.lock
+
+misc/
+src-test/

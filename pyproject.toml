@@ -1,0 +1,39 @@
+[project]
+name = "mirai"
+version = "0.1.0"
+description = "Machine Intelligence for Retrieval & AI Interaction"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "langchain",
+    "openai",
+    "python-dotenv",
+    "langchain-community",
+    "langchain-openai",
+    "langgraph",
+    "unstructured[xlsx]>=0.17.2",
+
+    # PDFの読み込み
+    "pymupdf",
+    "spacy",
+
+    # ChromaDB RAG
+    "tiktoken",
+    "chromadb",
+    "langchain-chroma",
+
+    # チャットUI
+    "streamlit",
+
+    # Agent
+    "wikipedia",
+    "playwright",
+
+    # LLMMathChain(算術計算)
+    "numexpr",
+
+    # API Server
+    "fastapi",
+    "uvicorn",
+    "langserve",
+]
